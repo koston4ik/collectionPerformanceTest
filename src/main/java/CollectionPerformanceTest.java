@@ -1,7 +1,17 @@
 import java.util.*;
 
+/**
+ * CollectionPerformanceTest measures and compares the performance of ArrayList and LinkedList.
+ * It tests the add, get, and remove operations for a specified number of iterations
+ * and prints the time taken for each operation in nanoseconds.
+ */
 public class CollectionPerformanceTest {
 
+	/**
+     * Main method that runs performance tests on ArrayList and LinkedList.
+     *
+     * @param args command-line arguments (not used)
+     */
     public static void main(String[] args) {
 
         int operations = 100000;
